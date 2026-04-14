@@ -140,7 +140,7 @@ input{margin: 50px;margin: 50px;padding: 0;}
     object-fit: cover;}
 
 .main-img-box:hover{
-  transform: scale(1.8); /* تكبير الصورة لمرة ونصف حجمها */
+  transform: scale(1.5); /* تكبير الصورة لمرة ونصف حجمها */
   z-index: 99;           /* عشان الصورة تطلع فوق العناصر اللي حولها */
   position: relative;    /* ضرورية لتفعيل الـ z-index */
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);} /* إضافة ظل خفيف للجمالية */

@@ -10,8 +10,8 @@
 <body>
   <div class="main">
     <div class="title">
-        <h1>ALNASSER SPORTS</h1>
-        <img src="logo alnasser.png"/>
+        <h1>Lingerie.com</h1>
+        <img src="img/logo.jpg"/>
     </div>
     <div class="list">
         <ul>
@@ -25,21 +25,28 @@
   </div> 
  <nav class="navbar">
   <ul class="nav-links">
-    <li><a href="test2.html">الرئيسية</a></li>
+    <li><a href="index.html">الرئيسية</a></li>
     
     <li class="dropdown">
-      <a href="#" class="dropbtn">men section ▼</a>
+      <a href="#" class="dropbtn">brand ▼</a>
       <ul class="dropdown-content">
-        <li><a href="#"> clothes men </a></li>
-        <li><a href="#"> app acc men</a></li>
-        <li><a href="#"> other </a></li>
+        <li><a href="Caramella Lingerie.html"> Caramella Lingerie </a></li>
       </ul>
     </li>
   <input type="text" id="searchInput" placeholder="ابحث في الصفحة..." onkeyup="searchFunction()"> 
   </ul>
 </nav>
 <div id="contentList">
-    <div class="item"><a><img src="img/2120.jpg"><p>ms1071515</p></a></div>
+ <div class="product-container">
+        <div class="main-img-box">
+            <img src="img/2120.jpg" id="mainImg2120" class="main-photo" alt="Main Image">
+        </div>
+
+        <div class="thumbnails">
+            <img src="img/2120.jpg" onclick="changeImage('mainImg1', this.src)" alt="thumb2120">
+        </div>
+        <p>model//2120</p>
+    </div>
     <div class="product-container">
         <div class="main-img-box">
             <img src="img/2119 red.jpg" id="mainImg1" class="main-photo" alt="Main Image">
@@ -112,7 +119,7 @@
     </div>
         <div class="product-container">
         <div class="main-img-box">
-            <img src="img/2112 red.jpg" id="mainImg2112" class="main-photo" alt="Main Image">
+            <img src="img/2112 blue.jpg" id="mainImg2112" class="main-photo" alt="Main Image">
         </div>
 
         <div class="thumbnails">
